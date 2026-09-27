@@ -3,5 +3,5 @@ aws_region  = "us-east-1"
 instance_type = "t3.micro"
 enable_nat_gateway = true
 single_nat_gateway = false
-ami_id = "ami-0002d0abb85b05cfa"
-iam_instance_profile = "existing-dev-ssm-profile"
+ami_id = "ami-0fef201115eefe936"
+iam_instance_profile = "arn:aws:iam::630434208583:instance-profile/github-terraform-actions"
